@@ -1,0 +1,17 @@
+<html>
+<head>
+  <script>
+    // Get the current URL
+    var currentUrl = window.location.href;
+
+    // Check if the URL contains the specific incorrect parameters that were emailed out
+    if (currentUrl.includes("?org=OSIT") || currentUrl.includes("#data_s=id%3AdataSource_4-19079a52021-layer-82%3A122")) {
+      // Redirect to the correct URL (without parameters)
+      window.location.href = "https://experience.arcgis.com/experience/7d215e3792654c5eaad2598bcdc0f427";
+    }
+  </script>
+</head>
+<body>
+  <!-- This is an invisible redirect page; no content is needed -->
+</body>
+</html>
